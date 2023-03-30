@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: white;
+}
+
+.header-content{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f1{
+    display: flex;
+}
+
+.icon1{
+    font-size: 40px;
+    color: rgb(253, 122, 144);
+}
+
+.cont1{
+    font-size: 10px;
+}
+
+.cont1 p{
+    font-size: 25px;
+}
+
+.cont1 span{
+    color:rgb(253, 122, 144) ;
+}
+
+.rel{
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.rel input{
+    width: 400px;
+    height: 29px;
+}
+
+.icon2{
+    height: 27px;
+    position: absolute;
+    top: 16%;
+    left: 87.5%;
+    padding:5px 15px;
+    color: white;
+    background-color: rgb(253, 122, 144);
+}
+
+.icon2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon3{
+    text-align: center;
+    color:rgb(253, 122, 144) ;
+    font-size: 25px;
+}
+
+.icon3 a{
+    color:rgb(253, 122, 144) ;
+}
+
+.f3 p{
+    font-size: 10px;
+}
+
+.nav-background{
+    background-color: rgb(253, 122, 144);
+}
+
+.nav-content ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-content li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-content li{
+    padding:5px 15px;
+}
+
+.nav-content li:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.856),rgba(0, 0, 0, 0.37));
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+
+.first-section{
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.295),rgba(12, 12, 12, 0.356)),url(../images/woman.jpg);
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.first-section-cont{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.first-section-cont h2{
+    color: white;
+}
+
+.first-section-cont p a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-section-cont span a{
+    color:  rgb(253, 122, 144);
+}
+
+.second-section{
+    background-color: rgb(226, 225, 225);
+    height: 970px;
+    position: relative;
+}
+
+.second-section-cont{
+    position: absolute;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    
+}
+
+.second-section-cont .cont-1 {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    line-height: 15px;
+}
+
+.second-section-cont .cont-1 p{
+    font-size: 20px;
+}
+
+.second-section-cont .cont-1 span{
+    font-size: 12px;
+}
+
+.cont-2{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+.cont-2 form{
+    width: 70%;
+}
+
+.cont-2 .address{
+    width: 30%;
+    line-height: 25px;
+}
+
+
+.cont-2 form input{
+    width: 35%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cont-2 form .message{
+    height: 150px;
+    width: 50%;
+}
+
+
+.cont-2 form .send{
+    width: 15%;
+    color:rgb(253, 122, 144) ;
+    border-color: rgb(253, 122, 144);
+    border-style: solid;
+    box-shadow: 1px 2px 3px rgb(253, 122, 144);
+}
+
+.third-section{
+    position: relative;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+
+.third-section-cont{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    left: 20%;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+.cont--1 p{
+    font-size: 15px;
+}
+
+.cont--2 form input{
+    padding: 10px;
+    width: 90%;
+    height: 35px;
+}
+
+.cont--2 form p{
+    background-color:rgb(253, 122, 144);
+    font-size: 13px;
+    color: white;
+    padding: 10px;
+    height: 33px;
+}
+
+.cont--2 form p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#fourth-section{
+    background-color: rgb(48, 47, 47);
+}
+
+.fourth-section{
+    color: white;
+    height: 215px;
+    position: relative;
+}
+
+.fourth-section-cont{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 20%;
+}
+
+.fourth-section-cont ul{
+    list-style: none;
+}
+
+.fourth-section-cont li a{
+    text-decoration: none;
+    color: white;
+}
+
+.fourth-section-cont li{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.icon---4  a{
+    color: white;
+}
+
+.icon---4 i{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.fourth-section-ii{
+    background-color: rgb(48, 47, 47);
+    position: relative;
+    height: 40px;
+}
+
+.fourth-section-cont-ii{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+
+.icon---4-ii a i{
+    color: white;
+    padding: 0 10px;
+}
+
+@media(max-width:768px){
+
+    header{
+        background-color:rgb(253, 122, 144) ;
+        width: 100%;
+        color: white;
+    }
+
+    .header-content{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .icon1{
+        font-size: 30px;
+    }
+
+    .cont1{
+        font-size: 9px;
+    }
+
+    .cont1 p{
+        font-size: 20px;
+    }
+
+    .rel input{
+        width: 100%;
+    }
+
+    .icon2{
+        left:78% ;
+        font-size: 15px;
+        padding: 2px 6px;
+    }
+
+    .icon1,.cont1 span,.icon3 a{
+        color: white;
+    }
+
+    nav{
+        margin-top: 3px;
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
+
+    .nav-content ul{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .nav-content li{
+        text-align: center;
+        padding: 15px 0;
+        font-size: 15px;
+    }
+
+    .nav-background{
+        height: 100%;
+    }
+
+    .left{
+        height: 100%;
+        width: 20%;
+        position: fixed;
+    }
+
+    .right{
+        margin-left: 158px;
+        width: 80%;
+        height: 100%;
+    }
+ 
+    .ov-flex{
+        display: flex;
+    }
+
+    #fourth-section{
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .fourth-section{
+        width: 95%;
+        left: 5%;
+        height: 159px;
+    } 
+    
+    .fourth-section-cont{
+        font-size: 10px;
+    }
+
+    .fourth-section-cont li{
+        font-size: 10px;
+    }
+
+    .cont---1, .cont---2, .cont---3,.cont---4{
+        margin-right: 5px;
+    }
+
+    .third-section{
+        height: 132px;
+    }
+
+    .third-section-cont{
+        font-size: 10px;
+    }
+
+    .second-section{
+        height: 953px;
+    }
+
+    .cont-2{
+        font-size: 10px;
+    }
+
+    .cont-2 form input{
+        font-size: 10px;
+    }
+
+    .cont--1 p{
+        font-size: 9px;
+    }
+
+    .absolute{
+        top: 2.5%;
+        left: 74.8%;
+    }
+    
+    .cont-2 .send{
+        font-size: 10px;
+        height: 20px;
+        padding: 0;
+    }
+
+    .fourth-section-cont-ii{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:700px),(max-width:701px){
+    .right{
+        margin-left: 145px;
+    }
+}
+
+@media(max-width:687px){
+
+    .left{
+        width: 22%;
+    }
+
+}
+
+@media(max-width:613px){
+
+    .left{
+        width: 24%;
+    }
+
+    .second-section{
+        height: 970px;
+    }
+
+}
+
+@media(max-width:579px){
+
+    .ov-flex{
+        display: unset;
+    }
+
+    .header-content{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .f1{
+        justify-content: center;
+    }
+
+    .nav-content ul{
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .nav-content li{
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .left{
+        position: unset;
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rel input{
+        width: 50%;
+    }
+
+    .icon2{
+        left: 69.3%;
+    }
+
+    .cont1 p, .f3 p,.cont1{
+        color: black;
+    }
+
+    header{
+        background-color: white;
+    }
+
+    .icon1, .icon3 a, .cont1 span{
+        color:rgb(253, 122, 144) ;
+    }
+
+
+}
