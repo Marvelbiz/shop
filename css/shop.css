@@ -17,6 +17,7 @@ header{
 
 .f1{
     display: flex;
+    width: 33.33%;
 }
 
 .icon1{
@@ -36,24 +37,34 @@ header{
     color:rgb(253, 122, 144) ;
 }
 
-.rel{
-    padding: 5px;
-    position: relative;
-    width: 100%;
+.f2{
+    width: 33.33%;
+    margin-top: 10px;
 }
 
-.rel input{
-    width: 400px;
-    height: 29px;
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.search-box{
+    width: 80%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-weight: 600;
 }
 
 .icon2{
-    height: 27px;
-    position: absolute;
-    top: 16%;
-    left: 87.5%;
-    padding:5px 15px;
+    width: 15%;
+    text-align: center;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
     background-color: rgb(253, 122, 144);
 }
 
@@ -70,6 +81,10 @@ header{
 
 .icon3 a{
     color:rgb(253, 122, 144) ;
+}
+
+.f3{
+    width: 33.33%;
 }
 
 .f3 p{
@@ -212,33 +227,40 @@ header{
     text-align: center;
 }
 
-.relative{
-    position: relative;
+.form3{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 5px;
 }
 
+
 .absolute{
-    width: 20%;
-    position: absolute;
-    top: 5%;
-    left: 75%;
+   width: 30%;
 }
 
 .cont--1 p{
     font-size: 15px;
 }
 
-.cont--2 form input{
-    padding: 10px;
-    width: 90%;
-    height: 35px;
+.cont--2 form .email{
+    border: none;
+    outline: none;
+    font-weight: 600;
+    width: 70%;
+    margin-left: 10px;
 }
 
-.cont--2 form p{
+.cont--2 form .sub{
     background-color:rgb(253, 122, 144);
     font-size: 13px;
     color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
     padding: 10px;
-    height: 33px;
 }
 
 .cont--2 form p a{
@@ -321,6 +343,14 @@ header{
         margin: 0;
     }
 
+    .f1,.f2,.f3{
+        width: 100%;
+    }
+
+    .f2{
+        background-color: white;
+    }
+
     .icon1{
         font-size: 30px;
     }
@@ -333,12 +363,16 @@ header{
         font-size: 20px;
     }
 
-    .rel input{
+    .form1{
         width: 100%;
     }
 
+    .search-box{
+        width: 80%;
+    }
+
     .icon2{
-        left:78% ;
+        width: 15%;
         font-size: 15px;
         padding: 2px 6px;
     }
@@ -481,14 +515,21 @@ header{
     }
 
     .header-content{
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
     }
 
-    .f1{
+    .f1,.f2,.f3{
+        width: 100%;
         justify-content: center;
     }
+
+
+    .f2{
+        display: flex;
+    }
+    
 
     .nav-content ul{
         flex-direction: row;
@@ -511,13 +552,14 @@ header{
         margin-left: 0;
     }
 
-    .rel input{
+
+    .form1{
+        border: 1px solid black;
         width: 50%;
+        justify-self: center;
     }
 
-    .icon2{
-        left: 69.3%;
-    }
+    
 
     .cont1 p, .f3 p,.cont1{
         color: black;
@@ -531,5 +573,17 @@ header{
         color:rgb(253, 122, 144) ;
     }
 
+
+}
+
+@media(max-width:425px){
+
+    .nav-content ul{
+        width: 100%;
+    }
+
+    .nav-content li{
+        padding: 4px;
+    }
 
 }
