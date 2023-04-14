@@ -193,12 +193,15 @@ header{
 
 
 .cont-2 form input{
+    outline: none;
     width: 35%;
     margin: 5px;
     padding: 10px;
 }
 
 .cont-2 form .message{
+    outline: none;
+    margin-left:5px ;
     height: 150px;
     width: 50%;
 }
